@@ -13,13 +13,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Ik ben hier als herkanser maar ik ben de UI/UX kant op gegaan dus heb niet veel aan mijn code skills gewerkt in de tussen tijd. Ik denk dat blauwe piste wel makkelijk lukt en rode piste met wat inzet net ook wel.p</summary>
 
   ### Auteur:
   Fabian Laforga Kaandorp (vervangen door jouw naam)
 
   #### Je startniveau:
-  Blauw (kies uit zwart, rood óf blauw)
+  Blauw, maar ik hoop naar rood te gaan na dit vak 2 keer gedaan te hebben :) (kies uit zwart, rood óf blauw)
 
   #### Je focus:
   Allebei ik ga naderhand een richting in kiezen die me meer aantrekt (kies uit responsive óf surface plane)
@@ -37,9 +37,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-  https://mono.co/ het liefst wil ik deze gaan namaken, maar als dit niet mag dan deze website hieronder
 
-  https://opensea.io/
+  https://opensea.io/ maar deze is nog best moeilijk, dus ik ga nog opzoek naar een andere site als ik die kan vinden
 
 
   #### Screenshot(s) van de eerste pagina (small screen):
