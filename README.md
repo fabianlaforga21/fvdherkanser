@@ -44,9 +44,9 @@ https://www.spoorwegmuseum.nl/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYQdET012G6-qnqdy_i
 
   #### Screenshot(s) van de eerste pagina (small screen):
   hier de naam van de pagina
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Screenshot 2023-09-11 at 11.00.17.png" width="375px" alt="omschrijving van de pagina">
 
-  deze vul ik in als ik zeker een website weet
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina
