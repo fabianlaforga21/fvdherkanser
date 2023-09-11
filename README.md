@@ -36,10 +36,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>Ik ben hier als herkanser maar ik ben de UI/UX kant op gegaan dus heb niet veel aan mijn code skills gewerkt in de tussen tijd. Ik denk dat blauwe piste wel makkelijk lukt en rode piste met wat inzet net ook wel.</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-  https://mono.co/ het liefst wil ik deze gaan namaken, maar als dit niet mag dan deze website hieronder
+ Mijn website wordt:
 
-  https://opensea.io/
+https://www.spoorwegmuseum.nl/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYQdET012G6-qnqdy_iJq62n8CvR5RKmSjxzNltgeHaIvOzL6fLD9YwaAtdoEALw_wcB
+
 
 
   #### Screenshot(s) van de eerste pagina (small screen):
