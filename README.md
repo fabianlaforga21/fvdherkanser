@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Fabian Laforga Kaandorp (vervangen door jouw naam)
 
   #### Je startniveau:
-  Blauw (kies uit zwart, rood óf blauw)
+  Blauw/Rood (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Allebei ik ga naderhand een richting in kiezen die me meer aantrekt (kies uit responsive óf surface plane)
+  Allebei, ik ga naderhand een richting in kiezen die me meer aantrekt (kies uit responsive óf surface plane)
 
 </details>
 
@@ -76,7 +76,7 @@ Screenshot 2023-09-11 at 11.00.17.png
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  <summary>Ik heb mijn breakdownschets niet al te gedetailleerd gemaakt omdat ik hem clean wil houden en liever alvast aan de HTML ga werken.<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina:
   <img src="readme-images/Hoofdpagina_Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
