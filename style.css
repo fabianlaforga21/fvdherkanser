@@ -1,0 +1,105 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+	box-sizing:border-box;
+  }
+
+
+
+
+
+
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+	  /* startje */
+	  --zwart:#111;
+	  --wit:#ffffff;
+	  --color-background:#f5efe9;
+	  --limegroen:#09f085;
+	  --roze:#ffb3ee;
+	  --donkergroen:#00453a;
+	  --lichtgeel:#fee966;
+	  --logogroen:#43fec6;
+	  --donkergeel:#ffc900;
+	  --grijs:#a5a39a;
+
+
+  }
+
+
+  @font-face {
+	  font-family: 'Poppins';
+	  src: url('../fonts/Poppins-Regular.ttf');
+  }
+
+/****************/
+  /* JOUW STYLING */
+  /****************/
+
+  h1{
+
+	  font-family: 'Poppins';
+	  font-weight: 600;
+	  font-size: 70px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* jouw code */
+
+  /* Reset standaardstijlen en basisstijlen voor de navigatiebalk */
+  body {
+	  margin: 0;
+	  padding: 0;
+	  font-family: 'Poppins';
+  }
+
+  header {
+	  background-color: #333;
+  }
+
+  nav ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+  }
+
+  nav li {
+	  display: inline;
+	  margin-right: 20px;
+  }
+
+  nav a {
+	  text-decoration: none;
+	  color: white;
+	  font-weight: bold;
+  }
+
+  /* Stijlen voor hover-effecten */
+  nav a:hover {
+	  text-decoration: underline;
+  }

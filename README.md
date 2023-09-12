@@ -38,14 +38,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
  Mijn website wordt:
 
-https://www.spoorwegmuseum.nl/?gclid=Cj0KCQjw9fqnBhDSARIsAHlcQYQdET012G6-qnqdy_iJq62n8CvR5RKmSjxzNltgeHaIvOzL6fLD9YwaAtdoEALw_wcB
+https://www.spoorwegmuseum.nl/
 
 
 
   #### Screenshot(s) van de eerste pagina (small screen):
- 
+
   <img src="readme-images/Screenshot 2023-09-11 at 10.58.20.png" width="375px" alt="omschrijving van de pagina">
-Hoofdpagina 
+Hoofdpagina
 
 
 Screenshot 2023-09-11 at 11.00.17.png
