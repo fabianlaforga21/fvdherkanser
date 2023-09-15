@@ -116,9 +116,12 @@ position: relative;
 display: flex;
 
 width: fit-content;
-padding: 0.8125rem 1.875rem;
-border-radius: 1.5625rem;
+padding: 0.5em 2em 0.5em 2em;
+border-radius: 55px;
 background-color: var(--limegroen);
+
+font-weight: 50;
+font-size: 16px;
 
 }
 
