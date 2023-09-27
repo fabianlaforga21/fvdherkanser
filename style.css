@@ -25,6 +25,8 @@
 	  --logogroen:#43fec6;
 	  --donkergeel:#ffc900;
 	  --grijs:#a5a39a;
+	  --lichtgrijs:#dbd8d2;
+
 
 
   }
@@ -42,22 +44,40 @@
 body{
 
 	background-color: var(--color-background);
+	margin: 0;
+	padding: 0;
+
+	overflow-x: hidden;
+
+}
+
+p{
+margin: 0;
+padding: 0;
+
 }
 
 
-  h1{
+.eerste h1{
 
 	  font-family: 'Poppins';
 	  font-weight: 600;
-	  font-size: 1.5em;
+	  font-size: 2.5em;
+	  color: var(--wit);
+
+	  margin-left: 0.60em;
+	  margin-top: 3em;
+	  margin-bottom: 0px;
   }
 
 
 
+ /*********************/
+  /* HEADER + HAMBURGERMENU */
+  /*********************/
 
 
-
-nav {
+.eerste nav {
 
 background-color:#ffffff;
 border-radius: 55px;
@@ -68,39 +88,66 @@ align-items: center;
 margin:1em 1em 1em 1em;
 
 
+padding: 10px;
 
-  }
 
-  nav a:first-child {
+
+
+}
+
+.eerste .spacer {
+    flex-grow: 1;
+}
+
+.eerste .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.eerste .bar {
+    width: 23px;
+    height: 2.5px;
+    background-color:var(--zwart);
+    margin: 3px 0;
+}
+
+
+
+
+
+.eerste nav a:first-child {
     margin: 0.5em;
 }
 
-nav button:first-child{
-
-	margin:0.5em;
-}
-
-nav a:nth-of-type(2) {
-    margin:0.5em;
-}
 
 
 
 
 
+ /*********************/
+  /* VIDEO */
+  /*********************/
 
 
 
 
-  main section:first-child video {
+.eerste  main section:first-child video {
 z-index: -1;
-
-
 
 
 width: 100%;
 height: 100%;
 object-fit: cover;
+
+position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+
+
+
   }
 
 
@@ -108,22 +155,565 @@ object-fit: cover;
 
 
 
-.btn1{
 
-color: var(--zwart);
-position: relative;
+ /*********************/
+  /* BUTTON VAN HEADER */
+  /*********************/
 
-display: flex;
 
-width: fit-content;
-padding: 0.5em 2em 0.5em 2em;
-border-radius: 55px;
-background-color: var(--limegroen);
 
-font-weight: 50;
-font-size: 16px;
+.eerste .btn1{
+
+	color: var(--zwart);
+	position: relative;
+
+	display: flex;
+
+	width: fit-content;
+	padding: 0.5em 2em 0.5em 2em;
+	border-radius: 55px;
+	background-color: var(--limegroen);
+
+	font-weight: 50;
+	font-size: 16px;
+
+	}
+
+
+	 /*********************/
+  /* BUTTON MET ICON */
+  /*********************/
+
+.eerste	.image-link {
+		color: #007bff;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+
+		color: var(--zwart);
+	position: relative;
+
+	display: flex;
+
+	width: fit-content;
+	padding: 13px 20px 13px 25px;
+	border-radius: 55px;
+	background-color: var(--limegroen);
+
+	font-weight: 50;
+	font-size: 16px;
+
+	margin: 1.5em;
+	margin-bottom: 99px;
+	}
+
+.eerste	.icon {
+		margin-left: 10px;
+		width: 30px;
+		height: 30px;
+	}
+
+	 /*********************/
+  /* WITTE GEDEELTE ONDER VIDEO */
+  /*********************/
+
+.eerste section:nth-of-type(2) > div:nth-of-type(1) {
+		background-color: var(--wit);
+		padding: 20px;
+
+
+	}
+
+
+.eerste	section:nth-of-type(2) div:nth-of-type(1){
+
+		display: flex;
+		align-items: flex-start;
+	}
+
+.eerste	section:nth-of-type(2) div:nth-of-type(1) a{
+
+		color: var(--zwart);
+	position: relative;
+
+	display: flex;
+
+	width: fit-content;
+	padding: 0.5em 2em 0.5em 2em;
+	border-radius: 55px;
+	background-color: var(--roze);
+
+	font-weight: 50;
+	font-size: 16px;
+	text-decoration: none;
+
+
+
+
+
+	}
+
+.eerste	section:nth-of-type(2) div:nth-of-type(1) div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+.eerste	section:nth-of-type(2) div:nth-of-type(1) div a{
+padding: 13px 30px 13px 30px;
+margin: 20px 20px 0px 20px;
+
+	}
+
+.eerste	section:nth-of-type(2) div:nth-of-type(1) img {
+margin-right: 10px;
+	}
+
+
+
+	 /*********************/
+  /* GROTE TEXTVELD */
+  /*********************/
+
+.eerste .textveld{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+	margin: 125px 22.5px 16px 22.5px;
 
 }
+
+.eerste .textveld > p{
+
+line-height: 1.81818;
+font-size: 22px;
+color: var(--donkergroen);
+text-align: center;
+}
+
+.eerste .textveld > a{
+
+
+	color: var(--wit);
+	position: relative;
+
+	display: flex;
+
+	width: fit-content;
+	padding: 13px 30px 13px 30px;
+	border-radius: 55px;
+	background-color: var(--donkergroen);
+
+	font-weight:normal;
+	font-size: 16px;
+
+	text-decoration: none;
+
+	margin-top: 50px;
+	margin-bottom: 100px;
+
+}
+
+	 /*********************/
+  /* SECTION MET GROTE FOTO/ SCROLLFOTO KOMT NU */
+  /*********************/
+
+
+section:nth-of-type(3){
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+.eerste  section:nth-of-type(3) div:first-child{
+background-color: var(--color-background);
+overflow: hidden;
+
+}
+
+
+
+
+
+.eerste section:nth-of-type(3) div img:first-child{
+
+
+width: 2127px;
+height: 200px;
+
+
+
+}
+
+.eerste .tweetreinen{
+
+	max-width: 80%;
+	max-height: 100%;
+	margin: 0px 30px 0px 30px;
+}
+
+
+
+.eerste .scrollding {
+    background-image: url('..//images/spoortwegtextfoto.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	height: 100vh;
+
+	width: 2127px;
+	height: 200px;
+
+}
+
+
+
+
+
+	 /*********************/
+  /* GELE SECTION */
+  /*********************/
+
+.eerste  .gelesection{
+
+padding: 60px 40px 60px 40px;
+background-color: var(--lichtgeel);
+
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+}
+
+
+
+.eerste  h2{
+
+	font-size: 30px;
+    font-weight: 500;
+    line-height: 1.26667;
+	letter-spacing: -1px;
+	color: var(--donkergroen);
+  }
+
+
+.eerste  section:nth-of-type(3) .gelesection > p{
+
+color: var(--donkergroen);
+  }
+
+.eerste  section:nth-of-type(3) .gelesection > a{
+
+padding-top: 50px;
+text-decoration: none;
+color: var(--donkergroen);
+  }
+
+
+
+  	 /*********************/
+  /* SLIDER KOMT NU */
+  /*********************/
+
+
+.eerste   h3{
+
+	font-size: 30px;
+    font-weight: 400;
+    line-height: 1.06061;
+	letter-spacing: -1px;
+	margin: 1em 1em 0 1em;
+  }
+
+
+
+.eerste  section:nth-of-type(4) ul{
+margin: 0;
+padding:0;
+display: flex;
+flex-direction: column;
+
+margin-left: 22.5px;
+list-style: none;
+}
+
+
+.eerste  section:nth-of-type(4) ul li img{
+border-radius: 9999px 9999px 0 0;;
+
+
+
+width: 210px;
+height: 279px ;
+
+
+margin-top: 50px;
+
+background-size: cover;
+background-position: 50%;
+object-fit: cover;
+
+}
+
+.eerste  section:nth-of-type(4) ul > li:nth-of-type(2) > p {
+
+font-size: 25px;
+line-height: 1.33333;
+font-weight: 600;
+padding-bottom: 10px;
+padding-top: 20px;
+max-width: 210px;
+
+}
+
+.eerste  section:nth-of-type(4) ul > li:nth-of-type(3) > p{
+
+font-size: 14px;
+
+margin-bottom: 10px;
+}
+
+.eerste  section:nth-of-type(4) ul >   hr{
+
+width: 210px;
+border-color: var(--zwart);
+border-width: 1px;
+margin-left: 0;
+
+}
+
+.eerste section:nth-of-type(4) > a{
+    color: var(--wit);
+    position: relative;
+    display: flex;
+    width: fit-content;
+    padding: 13px 30px 13px 30px;
+    border-radius: 55px;
+    background-color: var(--donkergroen);
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 50px;
+
+	margin-left: 22.5px;
+
+
+
+}
+
+.eerste .grotelogo{
+width: 375px;
+height: 190px;
+margin-left: 100px;
+margin-top: 10px;
+
+}
+
+
+	 /*********************/
+  /* VUURPROEF SECTION NU */
+  /*********************/
+
+
+
+
+
+  .eerste section:nth-of-type(5) img{
+width: 360px;
+height: 300px;
+
+background-size: cover;
+    background-position: 50%;
+	object-fit: cover;
+
+	padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .eerste section:nth-of-type(5) > div{
+
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding: 60px 40px;
+
+	background-color: var(--donkergroen);
+  }
+
+
+  .eerste section:nth-of-type(5) > div > h4{
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--roze);
+
+  }
+
+  .eerste section:nth-of-type(5) > div > p{
+
+
+	font-size: 16px;
+	color: var(--roze);
+
+	padding-bottom: 30px;
+  }
+
+  .eerste section:nth-of-type(5) > div > a{
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--roze);
+	text-decoration: none;
+  }
+
+
+   /*********************/
+  /* ZWARTE GEDEELTE FOOTER NU */
+  /*********************/
+
+
+.eerste > footer > section:nth-of-type(1){
+
+background-color: var(--zwart);
+}
+
+
+.eerste > footer > section:nth-of-type(1) div{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.eerste > footer > section:nth-of-type(1) div h5{
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+	text-align: center;
+	color: var(--wit);
+
+	margin-top: 10px;
+}
+
+.eerste > footer > section:nth-of-type(1) > div > img{
+
+width: 204px;
+height: 104px;
+padding-top: 20px;
+
+}
+
+
+.eerste > footer >section:nth-of-type(1) > ul{
+
+display:flex ;
+flex-flow: row wrap;
+justify-content: space-between;
+margin-bottom: 0;
+}
+
+.eerste > footer section:nth-of-type(1) > ul li > p{
+
+color: var(--wit);
+
+margin-bottom: 5px;
+}
+
+.eerste > footer > section:nth-of-type(1) > ul li:nth-of-type(1){
+
+margin-bottom: 40px;
+}
+
+.eerste > footer > section:nth-of-type(1) > ul li:nth-of-type(2){
+
+display: flex;
+flex-direction: column;
+margin-right: 40px;
+}
+
+.eerste > footer section:nth-of-type(1) > ul li > a {
+
+color: var(--grijs);
+
+text-decoration: none;
+font-size: 14px;
+line-height: 1.85714;
+
+}
+
+.eerste > footer > section:nth-of-type(1) > ul li:nth-of-type(3) address{
+
+color: var(--grijs);
+font-style: normal;
+
+font-size: 14px;
+
+line-height: 1.85714;
+
+
+}
+.eerste > footer > section:nth-of-type(1) > ul li:nth-of-type(3) address:nth-of-type(5){
+
+margin-bottom: 15px;
+}
+
+
+
+ /*********************/
+  /* PARTNES FOOTER Nu */
+  /*********************/
+
+.eerste > footer > section:nth-of-type(2){
+
+background-color: var(--lichtgrijs);
+display: flex;
+flex-direction: column;
+padding-top: 50px;
+gap: 36px;
+align-items: center;
+}
+
+.eerste > footer > section:nth-of-type(2) p{
+
+font-size: 18px;
+text-align: center;
+}
+
+
+.eerste > footer > section:nth-of-type(2) img:nth-of-type(1){
+
+width: 94.5px;
+height: 35px;
+}
+
+
+.eerste > footer > section:nth-of-type(2) img:nth-of-type(2){
+
+width: 142px;
+height: 30px;
+}
+
+.eerste > footer > section:nth-of-type(2) img:nth-of-type(3){
+
+width: 110px;
+height: 58px;
+}
+
+.eerste > footer > section:nth-of-type(2) img:nth-of-type(4){
+
+width: 110px;
+height: 55px;
+}
+
+
+
+
+
+
+
 
 
 

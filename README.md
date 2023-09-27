@@ -115,9 +115,9 @@ Screenshot 2023-09-11 at 11.00.17.png
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Beter eerst alle HTML afmaken en daarna alle CSS , inplaats van andersom.
+  - Ik had een vraag over mijn filmpje, maar dat is nu gellukig opgelost.
+  -
   - ...
 
 </details>
@@ -129,10 +129,10 @@ Screenshot 2023-09-11 at 11.00.17.png
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+  <summary><sup></sup> Ik ben al wat verder met mijn website en HTML heb ik inmiddels af, ik merk wel dat ik veel div's nodig heb voor vormgeving om bijv. een display flex te geven.</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik had wat moeite met de parrallax functie, en doordat mijn image doorliep van de viewport gingen alle breedtes van foto's verkeerd en dat kostte veel tijd om te debuggen. ik ben blij over mijn header en mijn filmpje voor achtergrond. (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -148,8 +148,8 @@ Screenshot 2023-09-11 at 11.00.17.png
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Met hulp van de student assistent heb ik mijn bug gefixt en heb ik de parrallax functie soepel laten lopen.
+  - Ik heb ook gellukig een tip gehad, want ik moest een bepaalde functie niet gebruiken bij de meta gedeelte, dus gelukkig heb ik dat nu ver van te voren gefixt.
   - nog een punt
 - ...
 
@@ -166,7 +166,17 @@ Screenshot 2023-09-11 at 11.00.17.png
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+- Als je via de h1 naar de h2 gaat springen dan mis je een gedeelte alleen ik zou niet weten hoe ik dat zou kunnen veranderen, want je kunt niet zomaar iets een h2 geven.
 
+- hij zegt bij het filmpje unable to play media, maar moet ik hier iets aan doen of kan dat niet?
+
+- Toen een door alle h1-h2 etc. door scroll met de screenreader ging dat goed en de volgerde waarin de headers staan zijn ook logisch
+
+- toen ik door alle linkjes ging vond ik dat ook al best wel goed gaan, elk linkje legt simpel en kort uit wat het doet en waar je naartoegaat
+
+
+Bij de WGAE checklist
+- Alleen mijn h1 had een lage contrast waarde voor de rest waren de rest van de teksten prima.
 </details>
 
 

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,">
 
 	<title>Spoorwegmuseum</title>
 
@@ -12,25 +12,26 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
+<body class="eerste">
 
 
 <nav>
-		<a href=""><img src=".//images/goedelogo.svg" alt="logofoto"></a>
+		<a href=""><img src=".//images/goedelogo.svg" alt="Logo van het Spoorwegenmuseum"></a>
 
 
 
-		<button class="menu">
-			<div></div>
-			<div></div>
-			<div></div>
-
-		</button>
-
+		<div class="spacer"></div>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="spacer"></div>
 
 
 
 		   <!-- hier moet hamburger menu -->
+		   <!-- initial-scale=1 maximum-scale=1.0, user-scalable=no -->
 
 		   <a href class="btn1">Tickets</a>
 	</nav>
@@ -63,35 +64,56 @@
 	<section>
 <h1>Het leukste station van nederland</h1>
 
-<a href="">Tickets</a>
-</section>
+<a href="#" class="image-link">
+	Tickets
+	<img src="./images/ticket.logo.button.svg" alt="Icoontje van een treinkaartje" class="icon">
+</a>
 
 
-<section>
+
+<div>
+	<img src=".//images/kloklogo.spoorweg.svg" alt="Icoontje van een klok">
+
+	<div>
+
 	<p>Hier vind je alles wat je moet weten voor een bezoek aan het Spoorwegenmuseum.</p>
 
 	<a href="">Bezoekersinformatie</a>
-</section>
+</div>
 
 
-<section>
+</div>
+
+<div class="textveld">
+
+
 	<p>Het Spoorwegmuseum is niet zomaar een museum. Het is een fascinerende plek waar je ontdekt hoe de trein de wereld heeft veranderd. Met een levensecht station, een theater, spannende attracties en met wisselende tentoonstellingen en evenementen ben je altijd op het juiste spoor!</p>
 
 <a href="">Ontdek ons museum</a>
+</div>
+
+
 </section>
 
-
+<!-- SECTION MET GROTE IMG KOMT NU -->
 <section>
-	<img src="" alt="">
+  <div class="scrollding"></div>
 
-	<h2>
 
-	</h2>
+
+	<img class="tweetreinen" src="./images/img1hoofdpagina.jpeg" alt="Foto van een treinspoor met 2 treinen erop">
+
+
+	<div class="gelesection">
+	<h2>Tentoonstelling 'Onder Hoogspanning'</h2>
+
+
 
 	<p>
-		Op 15 mei 1938 kwamen tegelijkertijd 90 elektrische treinen Mat'36 op het spoor. Het Spoorwegmuseum blikt terug op deze mega-operatie.          </p>
+		Op 15 mei 1938 kwamen tegelijkertijd 90 elektrische treinen Mat'36 op het spoor. Het Spoorwegmuseum blikt terug op deze mega-operatie.</p>
 
-	<a href="">Onder hoogspanning</a>
+	<a href="">Onder hoogspanning  →</a>
+</div>
 </section>
 
 
@@ -99,10 +121,39 @@
 
 	<h3>Binnenkort in het museum</h3>
 
+	<ul>
+		<li><img src="./images/halvemaanfoto.jpeg" alt="2 kleine kinderen die voor een trein staan"></li>
+		<li><p>Museumnacht Kids</p></li>
+		<li><p>28 okt 2023</p></li>
+		<hr>
+	</ul>
+
 	<!-- hier moet de slider komen -->
 
 	<a href="">Ontdek ons museum</a>
+
+<!--	<img class="grotelogo" src="./images/grotelogo.svg" alt= ""> -->
 </section>
+
+
+
+
+<section>
+
+	<img src=".//images/Kindje.treinlocomotief.jpeg" alt="Klein kindje die van de trap loopt in het spoorwegmuseum">
+
+
+	<div>
+	<h4>Vuurproef</h4>
+
+	<p>Deze spectaculaire, prijswinnende, attractie neemt je mee op reis door twee eeuwen spoorhistorie. Wat heeft de trein voor de wereld betekend? En hoe ziet de toekomst eruit?</p>
+
+	<a href="">Meer →</a>
+</div>
+</section>
+
+
+
 
 
 
@@ -111,6 +162,63 @@
 	<script defer src="scripts/script.js"></script>
 
 </main>
+
+
+<footer>
+
+	<section>
+
+	<div>
+
+	<img src="./images/logofooter.svg" alt="">
+
+	<h5>Geen spoor zonder dwarsliggers</h5>
+</div>
+
+	<ul>
+        <li>
+
+			<p>Nieuwsbrief</p>
+
+			<a href="#">Meld je aan →</a>
+
+
+        </li>
+        <li>
+            <p>Volg ons</p>
+
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+        </li>
+        <li>
+            <p>Bezoekadres</p>
+
+            <address>
+                Het spoorwegmuseum
+			</address>
+			<address>Maliebaanstation 16</address>
+			<address>3581 XW Utrecht</address>
+			<address>030 -230 62 06</address>
+			<address>info@spoorwegmuseum.com</address>
+        </li>
+    </ul>
+</section>
+
+
+<section>
+
+<p>Partners van het Spoorwegmuseum</p>
+
+<img src="./images/logonsfooter.png" alt="">
+<img src="./images/logo-prorail-default.png" alt="">
+<img src="./images/logo-vriendenloterij.png" alt="">
+<img src="./images/logo-nh1816.png" alt="">
+
+
+</section>
+
+</footer>
 
 
 
