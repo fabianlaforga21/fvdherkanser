@@ -177,6 +177,10 @@ Screenshot 2023-09-11 at 11.00.17.png
 
 Bij de WGAE checklist
 - Alleen mijn h1 had een lage contrast waarde voor de rest waren de rest van de teksten prima.
+
+- Bij dark modus veranderdt de website niet mee en gebeurt er niks.
+- Bij increase contrast gebeurt er ook niks.
+- Bij Reduce motion gebeurt er wel iets alleen gaat de hele website ook door elkaar.
 </details>
 
 
@@ -186,7 +190,7 @@ Bij de WGAE checklist
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+  <summary>De website is al aardig ver, alleen heb ik wel veel kleine dingentjes die niet goed werken maar dat graag wil vragen omdat ik er niet zoveel tijd wil aan verspillen.<sup></sup> </summary>
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -219,10 +223,10 @@ Bij de WGAE checklist
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
+  <summary>Ik ben voor mezelf erg blij met mijn uiteindelijke website, voor mijn gevoel had ik dit vak nog een keer nodig om alles echt toaal goed te snappen, en viel het kwartje wel deze keer.</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="..//readme-images/slider.foto.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd:
