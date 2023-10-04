@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>Ik hoop dat ik dit jaar dit vak wel ga halen. :)</summary>
+  <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
   Fabian Laforga Kaandorp (vervangen door jouw naam)
@@ -162,7 +162,7 @@ Screenshot 2023-09-11 at 11.00.17.png
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary><sup> Ik heb de test gedaan en er kwamen best verrasende resultaten uit.</sup> p</summary>
+  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
@@ -180,7 +180,7 @@ Bij de WGAE checklist
 
 - Bij dark modus veranderdt de website niet mee en gebeurt er niks.
 - Bij increase contrast gebeurt er ook niks.
-- Bij Reduce motion gebeurt er wel iets alleen gaat de hele website ook door elkaar. Dus als de reduce motion aan hebt en op mobile version zit gaat de website door elkaar.
+- Bij Reduce motion gebeurt er wel iets alleen gaat de hele website ook door elkaar.
 </details>
 
 
@@ -190,10 +190,10 @@ Bij de WGAE checklist
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>De website is al aardig ver, alleen heb ik wel veel kleine dingentjes die niet goed werken maar dat graag wil vragen omdat ik er niet zoveel tijd wil aan verspillen.<sup></sup> </summary>
+  <summary>De website is al aardig ver, alleen heb ik wel veel kleine dingentjes die niet goed werken maar dat graag wil vragen omdat ik er niet zoveel tijd wil aan verspillen. Kleine dingen zoals teveel padding, een div wat ik nog moet veranderen naar article etc etc.<sup></sup> </summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik moet een heleboel css veranderen omdat ik alles boven de fold boven in de main moet zetten en niet in de main. (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
@@ -209,8 +209,8 @@ Bij de WGAE checklist
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - Zet geen class op body maar op sections etc..
+  - Gebruik articles en geen divs
   - nog een punt
   - ...
 
@@ -230,15 +230,15 @@ Bij de WGAE checklist
 
 
   ### Dit ging goed/Heb ik geleerd:
-  Korte omschrijving met plaatjes
+  De prefer reduce functie heb ik geleerd.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="..//readme-images/spoorwegfotobewegend.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  De scrollbar bij de carousel hidden maken omdat hij er niet zo mooi uitziet
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="..//readme-images/scrollbar.png" width="375px" alt="bummer">
 </details>
 
 
@@ -254,8 +254,8 @@ Bij de WGAE checklist
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+  2. CHATGPT
+  3. https://www.w3schools.com/css/css3_object-fit.asp
 
 </details>
