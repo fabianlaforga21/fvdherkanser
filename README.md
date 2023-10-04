@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Ik hoop dat ik dit jaar wel dit vak haal. :) :)</summary>
 
   ### Auteur:
   Fabian Laforga Kaandorp (vervangen door jouw naam)
@@ -64,10 +64,14 @@ Screenshot 2023-09-11 at 11.00.17.png
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>Ik heb verschillende testen gedaan alleen die liepen niet erg soepel omdat mijn pc een beetje glitchtte.<sup></sup> </summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  - hij zegt bij het filmpje unable to play media, maar moet ik hier iets aan doen of kan dat niet?
+  - Door enteren door de h1 etc gaan allemaal wel goed en zijn wel logisch en duidelijk
+  - Ik kon de stem amper verstaan omdat hij zo snel ging.
 
 </details>
 
@@ -168,7 +172,7 @@ Screenshot 2023-09-11 at 11.00.17.png
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 - Als je via de h1 naar de h2 gaat springen dan mis je een gedeelte alleen ik zou niet weten hoe ik dat zou kunnen veranderen, want je kunt niet zomaar iets een h2 geven.
 
-- hij zegt bij het filmpje unable to play media, maar moet ik hier iets aan doen of kan dat niet?
+
 
 - Toen een door alle h1-h2 etc. door scroll met de screenreader ging dat goed en de volgerde waarin de headers staan zijn ook logisch
 
@@ -257,5 +261,7 @@ Bij de WGAE checklist
   1. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
   2. CHATGPT
   3. https://www.w3schools.com/css/css3_object-fit.asp
+  4. Student assistenten
+  5. En de lelaar natuurlijk ;) :)
 
 </details>
