@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Ik hoop dat ik dit jaar dit vak wel ga halen. :)</summary>
 
   ### Auteur:
   Fabian Laforga Kaandorp (vervangen door jouw naam)
@@ -162,7 +162,7 @@ Screenshot 2023-09-11 at 11.00.17.png
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+  <summary><sup> Ik heb de test gedaan en er kwamen best verrasende resultaten uit.</sup> p</summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
@@ -180,7 +180,7 @@ Bij de WGAE checklist
 
 - Bij dark modus veranderdt de website niet mee en gebeurt er niks.
 - Bij increase contrast gebeurt er ook niks.
-- Bij Reduce motion gebeurt er wel iets alleen gaat de hele website ook door elkaar.
+- Bij Reduce motion gebeurt er wel iets alleen gaat de hele website ook door elkaar. Dus als de reduce motion aan hebt en op mobile version zit gaat de website door elkaar.
 </details>
 
 
